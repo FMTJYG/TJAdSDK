@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TJAdSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'AD'
   s.description      = <<-DESC
   聚合广告聚合广告聚合广告聚合广告聚合广告聚合广告聚合广告
