@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'FM' => 'TJ' }
   s.platform         = :ios, "9.0"
-  s.vendored_frameworks = 'SDK/TJAdExampleLib.framework'
+  s.vendored_frameworks = 'SDK/TJAdSDK.framework'
   
   valid_archs = ['armv7', 'armv7s', 'x86_64', 'arm64']
   s.xcconfig = {
