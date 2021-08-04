@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TJAdSDK'
-  s.version          = '0.1.2'
+  s.version          = '0.2.0'
   s.summary          = 'AD'
   s.description      = <<-DESC
   聚合广告聚合广告聚合广告聚合广告聚合广告聚合广告聚合广告
@@ -26,11 +26,11 @@ Pod::Spec.new do |s|
     'VALID_ARCHS' =>  valid_archs.join(' '),
   }
   
-  s.frameworks = 'StoreKit', 'SafariServices', 'MessageUI', 'CoreMedia', 'CoreMotion', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'AVFoundation', 'AdSupport', 'UIKit', 'MapKit', 'MediaPlayer', 'MobileCoreServices', 'Accelerate', "WebKit", 'Security', 'CoreFoundation', 'Foundation'
+  s.frameworks = 'StoreKit', 'SafariServices', 'MessageUI', 'CoreMedia', 'CoreMotion', 'SystemConfiguration', 'CoreLocation', 'CoreTelephony', 'AVFoundation', 'AdSupport', 'UIKit', 'MapKit', 'MediaPlayer', 'MobileCoreServices', 'Accelerate', "WebKit", 'Security', 'CoreFoundation', 'Foundation', 'AppTrackingTransparency', 'JavaScriptCore'
   s.libraries = 'c++', 'resolv', 'z', 'sqlite3', 'bz2', 'xml2', 'c++abi'
    
-  s.dependency 'Ads-CN', '3.6.1.1'
-  s.dependency 'BaiduMobAdSDK', '4.771'
-  s.dependency 'GDTMobSDK', '4.12.61'
+  s.dependency 'Ads-CN', '3.8.1.0'
+  s.dependency 'BaiduMobAdSDK', '4.80'
+  s.dependency 'GDTMobSDK', '4.12.91'
   
 end
